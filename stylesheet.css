@@ -1,0 +1,25 @@
+html {
+    background-color: #ffdc85;
+}
+
+.centerNadpis {
+    text-align: center;
+    color: darkblue;
+}
+
+.border {
+    border-width: 10px;
+    border-style: solid;
+    border-color: black;
+    box-sizing: border-box;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.odsazeni {
+    padding-right: 25px;
+}
+
+.buttonOdsazeni {
+    margin-left: 20px;
+}

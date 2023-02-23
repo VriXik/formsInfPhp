@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="cz">
+<head>
+    <meta charset="UTF-8">
+    <title>forms</title>
+    <link href="stylesheet.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="centerNadpis">
+  <h1>Dotazník</h1>
+</div>
+
+  <form action="./action.php" method="get">
+    <fieldset class="border">
+      <legend>Udaje:</legend>
+      <label for="jmeno">Jmeno:</label>
+
+      <br>
+
+      <input type="text" name="jmeno" id="jmeno">
+
+      <br>
+      <br>
+
+      <label for="prijmeni">Přijmení:</label>
+
+      <br>
+
+      <input type="text" name="prijmeni" id="prijmeni">
+
+      <br>
+      <br>
+
+      <label for="mesto">Město:</label>
+      <select name="mesto" id="mesto">
+        <optgroup label="Moravskoslezský kraj">
+          <option value="Ostravě">Ostrava</option>
+          <option value="Opavě">Opava</option>
+          <option value="Haviřově">Havířov</option>
+        </optgroup>
+        <optgroup label="Zlínský kraj">
+          <option value="Zlině">Zlin</option>
+          <option value="Lhotce">Lhotka</option>
+        </optgroup>
+      </select>
+
+      <br>
+      <br>
+
+      <label class="odsazeni">Oblibený předmět:</label>
+      <input type="radio" id="matematika" name="favPredmet" value="matematika">
+      <label for="matematika">matematika</label>
+      <input type="radio" id="fyzika" name="favPredmet" value="fyzika">
+      <label for="fyzika">fyzika</label>
+      <input type="radio" id="informatika" name="favPredmet" value="informatika">
+      <label for="informatika">informatika</label>
+
+      <br>
+      <br>
+
+
+      <label class="odsazeni">Jazykove znalosti:</label>
+      <input type="checkbox" id="angličtina" name="jazyk" value="angličtina">
+      <label for="angličtina">angličtina</label>
+      <input type="checkbox" id="nemčina" name="jazyk" value="nemčina">
+      <label for="nemčina">nemčina</label>
+      <input type="checkbox" id="italština" name="jazyk" value="italština">
+      <label for="italština">italština</label>
+    </fieldset>
+    <br>
+    <input class="buttonOdsazeni" type="submit" value=">>Odeslat<<">
+    <input class="buttonOdsazeni" type="reset" value=">>Vymazat<<">
+
+  </form>
+
+
+</body>
+</html>
