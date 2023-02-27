@@ -31,9 +31,10 @@
 
       <br>
       <br>
+      <br>
 
       <label for="mesto">Město:</label>
-      <select name="mesto" id="mesto">
+      <select class="odsazeniLabelu" name="mesto" id="mesto">
         <optgroup label="Moravskoslezský kraj">
           <option value="Ostravě">Ostrava</option>
           <option value="Opavě">Opava</option>
@@ -44,6 +45,50 @@
           <option value="Lhotce">Lhotka</option>
         </optgroup>
       </select>
+
+      <br>
+      <br>
+
+      <label for="email">E-mail:</label>
+      <input placeholder="kys@POMOC.cz" class="odsazeniLabelu"    name="email" id="email">
+
+      <br>
+      <br>
+
+      <label for="telefon">telefon:</label>
+      <input placeholder="+420 123456789" class="odsazeniLabelu" name="telefon" id="telefon">
+
+      <br>
+      <br>
+
+      <div class="textareaCenter">
+        <label for="poznamky">poznamky</label>
+        <textarea  class="odsazeniLabelu" id="poznamky" name="poznamky"></textarea>
+      </div>
+
+      <br>
+      <br>
+
+      <label for="hodnoceni">Hodnocení<br>(od 1 do 5)</label>
+      <input type="range" name="hodnoceni" id="hodnoceni" min="1" max="5" value="1">
+
+      <br>
+      <br>
+
+      <label for="rychlost">Rychlost<br>(od 10 do 100)</label>
+      <input type="range" name="rychlost" id="rychlost" min="10" max="100" value="10" list="rychlostList">
+      <datalist id="rychlostList">
+        <option value="10"></option>
+        <option value="20"></option>
+        <option value="30"></option>
+        <option value="40"></option>
+        <option value="50"></option>
+        <option value="60"></option>
+        <option value="70"></option>
+        <option value="80"></option>
+        <option value="90"></option>
+        <option value="100"></option>
+      </datalist>
 
       <br>
       <br>

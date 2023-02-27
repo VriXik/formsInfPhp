@@ -1,10 +1,13 @@
 html {
-    background-color: #ffdc85;
+    background-color: pink;
+    color: black;
+    font-family: "Roboto Light", sans-serif;
 }
 
 .centerNadpis {
     text-align: center;
-    color: darkblue;
+    color: black;
+
 }
 
 .border {
@@ -22,4 +25,13 @@ html {
 
 .buttonOdsazeni {
     margin-left: 20px;
+}
+
+.textareaCenter {
+    display: flex;
+    align-items: center;
+}
+
+.odsazeniLabelu {
+    margin-left: 50px;
 }
